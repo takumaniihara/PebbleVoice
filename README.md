@@ -10,7 +10,7 @@ Polish, Portuguese (Brazil), Romanian, Russian, Slovak, Thai, Turkish, Ukrainian
 
 Please note that this enables only voice input. You might need pebble character support to show the input words.
 #download
-https://github.com/nippy-dev/Pebble-Voice-Settings-Extender/blob/master/app/app-release.apk
+https://github.com/nippy-dev/Pebble-Voice-Settings-Extender/blob/master/app/app-release.apk?raw=true
 
 #License
 Pebble-Voice-Settings-Extender Copyright (C) 2015 nippy-dev All rights reserved.
