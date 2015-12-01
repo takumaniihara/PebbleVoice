@@ -9,7 +9,9 @@ Mandarin (China/Simplified), Mandarin (Taiwan/Traditional),
 Polish, Portuguese (Brazil), Romanian, Russian, Slovak, Thai, Turkish, Ukrainian, Vietnamese
 
 Please note that this enables only voice input. You might need pebble character support to show the input words.
-#download
+
+#Install
+Download apk from this link.
 https://github.com/nippy-dev/Pebble-Voice-Settings-Extender/blob/master/app/app-release.apk?raw=true
 
 #License
