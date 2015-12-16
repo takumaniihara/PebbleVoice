@@ -28,7 +28,7 @@ public class Patch implements IXposedHookLoadPackage {
     public void handleLoadPackage(XC_LoadPackage.LoadPackageParam loadPackageParam) throws Throwable {
 
         if (loadPackageParam.packageName.equals("com.getpebble.android.basalt")) {
-            findAndHookMethod("com.getpebble.android.onboarding.fragment.ChooseLanguageFragment",
+            findAndHookMethod("com.getpebble.android.onboarding.fragment.ChooseVoiceLanguageFragment",
                     loadPackageParam.classLoader, "a", new XC_MethodHook() {
                         @Override
                         protected void afterHookedMethod(MethodHookParam param) throws Throwable {
