@@ -25,11 +25,10 @@ import static de.robv.android.xposed.XposedHelpers.findAndHookMethod;
 
 public class Patch implements IXposedHookLoadPackage {
     @Override
-    public void handleLoadPackage(XC_LoadPackage.LoadPackageParam loadPackageParam) throws Throwable {
-
-        if (loadPackageParam.packageName.equals("com.getpebble.android.basalt")) {
+    public void handleLoadPackage(final XC_LoadPackage.LoadPackageParam lpparam) throws Throwable {
+        if (lpparam.packageName.equals("com.getpebble.android.basalt")) {
             findAndHookMethod("com.getpebble.android.onboarding.fragment.ChooseVoiceLanguageFragment",
-                    loadPackageParam.classLoader, "a", new XC_MethodHook() {
+                    lpparam.classLoader, "a", new XC_MethodHook() {
                         @Override
                         protected void afterHookedMethod(MethodHookParam param) throws Throwable {
                             AbstractMap<String, String> list = (AbstractMap<String, String>) param.getResult();
