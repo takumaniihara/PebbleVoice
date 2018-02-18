@@ -12,7 +12,7 @@ Please note that this enables only voice input. You might need pebble character 
 
 #Install
 Download apk from this link.
-https://github.com/nippy-dev/Pebble-Voice-Settings-Extender/blob/master/app/app-release.apk?raw=true
+https://github.com/takumaniihara/PebbleVoice/blob/master/app/app-release.apk?raw=true
 
 #License
 Pebble-Voice-Settings-Extender Copyright (C) 2015 nippy-dev All rights reserved.
